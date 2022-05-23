@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<ScappleDocument ID="3DBD072D-D825-48CE-8419-7C60D28474C6" Version="1.1">
+   <Notes>
+      <Note Width="97.8271" FontSize="12" ID="0" Position="386.0,146.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Backend Server</String>
+      </Note>
+      <Note Width="95.8984" FontSize="12" ID="4" Position="67.2,117.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>VS Code Editor
+</String>
+      </Note>
+      <Note Width="34.6313" FontSize="12" ID="6" Position="45.3,219.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>1.0 1.0 1.0</Fill>
+            <Border Weight="1" Style="Rounded">0.0 0.0 0.0</Border>
+         </Appearance>
+         <String>CSS</String>
+      </Note>
+      <Note Width="77.6245" FontSize="12" ID="7" Position="52.3,245.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>1.0 1.0 1.0</Fill>
+            <Border Weight="1" Style="Rounded">0.0 0.0 0.0</Border>
+         </Appearance>
+         <String>HTML:DOM</String>
+      </Note>
+      <Note Width="67.0532" FontSize="12" ID="8" Position="86.7,219.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>1.0 1.0 1.0</Fill>
+            <Border Weight="1" Style="Rounded">0.0 0.0 0.0</Border>
+         </Appearance>
+         <String>JavaScript</String>
+      </Note>
+      <Note Width="47.0337" FontSize="12" ID="9" Position="68.0,180.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>1.0 1.0 1.0</Fill>
+            <Border Weight="1" Style="Rounded">0.0 0.0 0.0</Border>
+         </Appearance>
+         <String>Javalin</String>
+      </Note>
+      <Note Width="61.0107" FontSize="12" ID="10" Position="124.2,178.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>1.0 1.0 1.0</Fill>
+            <Border Weight="1" Style="Rounded">0.0 0.0 0.0</Border>
+         </Appearance>
+         <String>Postman </String>
+      </Note>
+      <Note Width="58.2031" FontSize="12" ID="2" Position="66.4,320.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>1.0 1.0 1.0</Fill>
+            <Border Weight="1" Style="Rounded">0.0 0.0 0.0</Border>
+         </Appearance>
+         <String>Frontend</String>
+      </Note>
+      <Note Width="60.3271" FontSize="12" ID="11" Position="416.4,320.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>1.0 1.0 1.0</Fill>
+            <Border Weight="1" Style="Rounded">0.0 0.0 0.0</Border>
+         </Appearance>
+         <String>Back end</String>
+      </Note>
+      <Note Width="102.271" FontSize="12" ID="12" Position="463.3,184.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>1.0 1.0 1.0</Fill>
+            <Border Weight="1" Style="Rounded">0.0 0.0 0.0</Border>
+         </Appearance>
+         <String>Postgresql 10.20</String>
+      </Note>
+      <Note Width="134.863" FontSize="12" ID="13" Position="173.4,338.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>1.0 1.0 1.0</Fill>
+            <Border Weight="1" Style="Rounded">0.0 0.0 0.0</Border>
+         </Appearance>
+         <String>Reimbursement Model</String>
+      </Note>
+      <Note Width="57.2632" FontSize="12" ID="3" Position="350.0,239.8">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>1.0 1.0 1.0</Fill>
+            <Border Weight="1" Style="Rounded">0.0 0.0 0.0</Border>
+         </Appearance>
+         <String>DBeaver</String>
+      </Note>
+      <Note Width="72.5342" FontSize="12" ID="1" Position="384.4,185.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>1.0 1.0 1.0</Fill>
+            <Border Weight="1" Style="Rounded">0.0 0.0 0.0</Border>
+         </Appearance>
+         <String>AWS- RDB</String>
+      </Note>
+      <Note Width="90.3687" FontSize="12" ID="5" Position="291.4,185.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>1.0 1.0 1.0</Fill>
+            <Border Weight="1" Style="Rounded">0.0 0.0 0.0</Border>
+         </Appearance>
+         <String>Remote server</String>
+      </Note>
+      <Note Width="96.6797" FontSize="12" ID="14" Position="421.9,243.8">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>1.0 1.0 1.0</Fill>
+            <Border Weight="1" Style="Rounded">0.0 0.0 0.0</Border>
+         </Appearance>
+         <String>local Postgresql</String>
+      </Note>
+      <Note Width="96.875" FontSize="12" ID="15" Position="386.7,102.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>1.0 1.0 1.0</Fill>
+            <Border Weight="1" Style="Rounded">0.0 0.0 0.0</Border>
+         </Appearance>
+         <String>SpringToolSuite</String>
+      </Note>
+      <Note Width="43.9575" FontSize="12" ID="16" Position="494.5,101.6">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>1.0 1.0 1.0</Fill>
+            <Border Weight="1" Style="Rounded">0.0 0.0 0.0</Border>
+         </Appearance>
+         <String>IntelliJ</String>
+      </Note>
+      <Note Width="128.784" FontSize="12" ID="17" Position="178.9,279.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>1.0 1.0 1.0</Fill>
+            <Border Weight="1" Style="Rounded">0.0 0.0 0.0</Border>
+         </Appearance>
+         <String>Model Viewer Control</String>
+      </Note>
+   </Notes>
+   <BackgroundShapes/>
+   <NoteStyles>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Pink Bubble" ID="652706CB-DD6C-4E7E-AA70-36B66273F011" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.690303 0.407263 0.550912</BorderColor>
+         <FillColor>0.898329 0.817472 0.865339</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Red Text" ID="17A623D3-DF2F-4E36-B294-46EC52A85BC9" AffectTextColor="Yes" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <TextColor>1.0 0.0 0.0</TextColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Yellow Bubble" ID="6C4918F2-8177-4743-B1C8-F5EA0EAD1819" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.769436 0.762219 0.390143</BorderColor>
+         <FillColor>0.912963 0.894118 0.644541</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Blue Bubble" ID="2A94F6BF-5C9B-4523-9EBA-D102773BA77A" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.485893 0.568933 0.756207</BorderColor>
+         <FillColor>0.844068 0.869596 0.923064</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Brown Bubble" ID="34EE9402-D0EE-4220-A165-D871C53DA205" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.269490 0.164034 0.186694</BorderColor>
+         <FillColor>0.934157 0.888319 0.785290</FillColor>
+      </Style>
+      <Style AffectFontStyle="Yes" AffectAlignment="Yes" Name="Title Text" ID="94599E16-663E-4E14-AE12-A5A434DBB3EF" AffectTextColor="No" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <IsBold>Yes</IsBold>
+         <FontSize>12.0</FontSize>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Green Bubble" ID="7C4D71F1-2B98-4959-A32C-FBFAB90CC682" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.399100 0.583322 0.354864</BorderColor>
+         <FillColor>0.808835 0.872419 0.801343</FillColor>
+      </Style>
+   </NoteStyles>
+   <UISettings>
+      <BackgroundColor>1.0 0.988006 0.945006</BackgroundColor>
+      <DefaultFont>Helvetica</DefaultFont>
+      <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+   </UISettings>
+   <PrintSettings VerticalPagination="Auto" HorizontalPagination="Clip" Orientation="Portrait" RightMargin="12.000000" BottomMargin="12.000000" HorizontallyCentered="Yes" ScaleFactor="1.000000" PagesAcross="1" PaperType="na-letter" PagesDown="1" TopMargin="12.000000" Collates="Yes" PaperSize="-1.000000,-1.000000" LeftMargin="12.000000" VerticallyCentered="Yes"/>
+</ScappleDocument>

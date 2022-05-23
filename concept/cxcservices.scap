@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<ScappleDocument ID="C01F4E50-D639-4521-835D-ED13E9793E1D" Version="1.1">
+   <Notes>
+      <Note Width="42.3584" FontSize="12" ID="0" Position="453.9,67.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Travel</String>
+      </Note>
+      <Note Width="110.425" FontSize="12" ID="1" Position="455.5,99.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Medical Expenses</String>
+      </Note>
+      <Note Width="98.2422" FontSize="12" ID="2" Position="457.8,124.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Per Diem Meals</String>
+      </Note>
+      <Note Width="52.6245" FontSize="12" ID="3" Position="459.4,149.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Lodging</String>
+      </Note>
+      <Note Width="127.893" FontSize="12" ID="4" Position="462.5,177.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Continuing Education</String>
+      </Note>
+      <Note Width="70.105" FontSize="12" ID="5" Position="464.0,204.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Work Tools</String>
+      </Note>
+      <Note Width="64.502" FontSize="12" ID="6" Position="614.1,95.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Submitted</String>
+      </Note>
+      <Note Width="54.0283" FontSize="12" ID="7" Position="620.3,126.6">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Pending</String>
+      </Note>
+      <Note Width="61.7188" FontSize="12" ID="8" Position="618.0,158.6">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Approved</String>
+      </Note>
+      <Note Width="68.7012" FontSize="12" ID="9" Position="469.5,19.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Categories</String>
+      </Note>
+      <Note Width="87.5977" FontSize="12" ID="10" Position="460.2,239.8">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Miscellaneous</String>
+      </Note>
+      <Note Width="43.5303" FontSize="12" ID="11" Position="619.5,62.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Status</String>
+      </Note>
+      <Note Width="43.5303" FontSize="12" ID="12" Position="358.9,45.8">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Salary</String>
+      </Note>
+      <Note Width="63.8184" FontSize="12" ID="13" Position="259.6,133.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Employee</String>
+      </Note>
+      <Note Width="61.0107" FontSize="12" ID="14" Position="95.8,22.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Employer</String>
+      </Note>
+      <Note Width="102.734" FontSize="12" ID="15" Position="69.9,162.6">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Patient Advocate</String>
+      </Note>
+      <Note Width="90.8203" FontSize="12" ID="16" Position="69.9,140.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Case Manager</String>
+      </Note>
+      <Note Width="111.792" FontSize="12" ID="17" Position="124.7,284.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Software Engineer</String>
+      </Note>
+      <Note Width="108.301" FontSize="12" ID="18" Position="130.9,325.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Network Engineer</String>
+      </Note>
+      <Note Width="175.781" FontSize="12" ID="19" Position="13.4,117.0" Level="1">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Financial Administrator</String>
+      </Note>
+      <Note Width="119.482" FontSize="12" ID="20" Position="62.8,192.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Service Coordinator</String>
+      </Note>
+      <Note Width="140.186" FontSize="12" ID="21" Position="48.2,95.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Donor Relation Director</String>
+      </Note>
+      <Note Width="114.075" FontSize="12" ID="22" Position="62.6,216.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>ER Pain Supporter</String>
+      </Note>
+      <Note Width="99.3896" FontSize="12" ID="23" Position="74.8,247.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>ER Support Call</String>
+      </Note>
+      <Note Width="120.19" FontSize="12" ID="24" Position="3.6,324.6">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Data Epidemiologist</String>
+      </Note>
+      <Note Width="90.8203" FontSize="12" ID="25" Position="24.7,288.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Data Detective</String>
+      </Note>
+      <Note Width="33.7402" FontSize="12" ID="26" Position="274.4,79.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Role</String>
+      </Note>
+      <Note Width="57.5073" FontSize="12" ID="27" Position="263.2,112.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Manager</String>
+      </Note>
+      <Note Width="31.1646" FontSize="12" ID="28" Position="104.2,49.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Title</String>
+      </Note>
+   </Notes>
+   <BackgroundShapes/>
+   <NoteStyles>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Pink Bubble" ID="652706CB-DD6C-4E7E-AA70-36B66273F011" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.690303 0.407263 0.550912</BorderColor>
+         <FillColor>0.898329 0.817472 0.865339</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Red Text" ID="17A623D3-DF2F-4E36-B294-46EC52A85BC9" AffectTextColor="Yes" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <TextColor>1.0 0.0 0.0</TextColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Yellow Bubble" ID="6C4918F2-8177-4743-B1C8-F5EA0EAD1819" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.769436 0.762219 0.390143</BorderColor>
+         <FillColor>0.912963 0.894118 0.644541</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Blue Bubble" ID="2A94F6BF-5C9B-4523-9EBA-D102773BA77A" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.485893 0.568933 0.756207</BorderColor>
+         <FillColor>0.844068 0.869596 0.923064</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Brown Bubble" ID="34EE9402-D0EE-4220-A165-D871C53DA205" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.269490 0.164034 0.186694</BorderColor>
+         <FillColor>0.934157 0.888319 0.785290</FillColor>
+      </Style>
+      <Style AffectFontStyle="Yes" AffectAlignment="Yes" Name="Title Text" ID="94599E16-663E-4E14-AE12-A5A434DBB3EF" AffectTextColor="No" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <IsBold>Yes</IsBold>
+         <FontSize>12.0</FontSize>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Green Bubble" ID="7C4D71F1-2B98-4959-A32C-FBFAB90CC682" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.399100 0.583322 0.354864</BorderColor>
+         <FillColor>0.808835 0.872419 0.801343</FillColor>
+      </Style>
+   </NoteStyles>
+   <UISettings>
+      <BackgroundColor>1.0 0.988006 0.945006</BackgroundColor>
+      <DefaultFont>Helvetica</DefaultFont>
+      <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+   </UISettings>
+   <PrintSettings VerticalPagination="Auto" HorizontalPagination="Clip" Orientation="Portrait" RightMargin="12.000000" BottomMargin="12.000000" HorizontallyCentered="Yes" ScaleFactor="1.000000" PagesAcross="1" PaperType="na-letter" PagesDown="1" TopMargin="12.000000" Collates="Yes" PaperSize="-1.000000,-1.000000" LeftMargin="12.000000" VerticallyCentered="Yes"/>
+</ScappleDocument>

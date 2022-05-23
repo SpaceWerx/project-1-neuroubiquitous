@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<ScappleDocument ID="205F53D7-29F5-493D-BEF4-97D5135B5A66" Version="1.1">
+   <Notes>
+      <Note Width="34.6191" FontSize="12" ID="0" Position="109.4,25.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>1.0 1.0 1.0</Fill>
+            <Border Weight="1" Style="Rounded">0.0 0.0 0.0</Border>
+         </Appearance>
+         <String>DQL</String>
+      </Note>
+      <Note Width="459.375" FontSize="12" ID="1" Position="6.2,72.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <TextColor>0.666667 0.0 0.0</TextColor>
+            <Border Weight="1" Style="Rounded">0.0 0.0 0.0</Border>
+         </Appearance>
+         <String>SELECT NAME, COUNT (NAME) FROM STUDENT GROUP BY (NAME)</String>
+      </Note>
+      <Note Width="121.423" FontSize="12" ID="2" Position="543.0,129.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>1.0 1.0 1.0</Fill>
+            <Border Weight="1" Style="Rounded">0.0 0.0 0.0</Border>
+         </Appearance>
+         <String>schema name is cxc</String>
+      </Note>
+      <Note Width="232.031" ID="3" Position="460.9,166.8">
+         <Appearance>
+            <Alignment>Left</Alignment>
+         </Appearance>
+         <ImageData Type="png" Name="">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</ImageData>
+      </Note>
+   </Notes>
+   <BackgroundShapes/>
+   <NoteStyles>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Pink Bubble" ID="652706CB-DD6C-4E7E-AA70-36B66273F011" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.690303 0.407263 0.550912</BorderColor>
+         <FillColor>0.898329 0.817472 0.865339</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Red Text" ID="17A623D3-DF2F-4E36-B294-46EC52A85BC9" AffectTextColor="Yes" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <TextColor>1.0 0.0 0.0</TextColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Yellow Bubble" ID="6C4918F2-8177-4743-B1C8-F5EA0EAD1819" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.769436 0.762219 0.390143</BorderColor>
+         <FillColor>0.912963 0.894118 0.644541</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Blue Bubble" ID="2A94F6BF-5C9B-4523-9EBA-D102773BA77A" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.485893 0.568933 0.756207</BorderColor>
+         <FillColor>0.844068 0.869596 0.923064</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Brown Bubble" ID="34EE9402-D0EE-4220-A165-D871C53DA205" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.269490 0.164034 0.186694</BorderColor>
+         <FillColor>0.934157 0.888319 0.785290</FillColor>
+      </Style>
+      <Style AffectFontStyle="Yes" AffectAlignment="Yes" Name="Title Text" ID="94599E16-663E-4E14-AE12-A5A434DBB3EF" AffectTextColor="No" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <IsBold>Yes</IsBold>
+         <FontSize>12.0</FontSize>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Green Bubble" ID="7C4D71F1-2B98-4959-A32C-FBFAB90CC682" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.399100 0.583322 0.354864</BorderColor>
+         <FillColor>0.808835 0.872419 0.801343</FillColor>
+      </Style>
+   </NoteStyles>
+   <UISettings>
+      <BackgroundColor>1.0 0.988006 0.945006</BackgroundColor>
+      <DefaultFont>Helvetica</DefaultFont>
+      <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+   </UISettings>
+   <PrintSettings VerticalPagination="Auto" HorizontalPagination="Clip" Orientation="Portrait" RightMargin="12.000000" BottomMargin="12.000000" HorizontallyCentered="Yes" ScaleFactor="1.000000" PagesAcross="1" PaperType="na-letter" PagesDown="1" TopMargin="12.000000" Collates="Yes" PaperSize="-1.000000,-1.000000" LeftMargin="12.000000" VerticallyCentered="Yes"/>
+</ScappleDocument>
