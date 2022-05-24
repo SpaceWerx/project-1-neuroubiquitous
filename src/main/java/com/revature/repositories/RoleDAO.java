@@ -26,7 +26,7 @@ import com.revature.utilities.ConnectionFactory;
                 System.out.println(roleTitle + " salary has been updated to: " + newSalary);
             }
             catch (SQLException e) {
-                System.out.println("An error occured while updating the salary");
+                System.out.println("An error occurred while updating the salary");
                 e.printStackTrace(); //What I usually do, is I will only leave these in, while I am testing and building the code, and once everything works and I know it works, I remove them
             }
         }
