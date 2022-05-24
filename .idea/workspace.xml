@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f37bad1-c696-4ac9-b171-8aa4e727f163" name="Changes" comment="reworking the demo to get cxc schema to connect to the application">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/repositories/RoleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/repositories/RoleDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/services/AuthenticationServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/services/AuthenticationServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/services/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/services/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/services/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/services/RoleService.java" afterDir="false" />
-    </list>
+    <list default="true" id="5f37bad1-c696-4ac9-b171-8aa4e727f163" name="Changes" comment="Connected Schema cxc Schema! Now need to program methods." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +81,7 @@
       <workItem from="1653358778411" duration="3778000" />
       <workItem from="1653369020404" duration="2000" />
       <workItem from="1653369293091" duration="3000" />
-      <workItem from="1653405704232" duration="12363000" />
+      <workItem from="1653405704232" duration="12680000" />
     </task>
     <task id="LOCAL-00001" summary="restarting from a recovery">
       <created>1653360516950</created>
@@ -105,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653414512824</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Connected Schema cxc Schema! Now need to program methods.">
+      <created>1653423499867</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653423499867</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +125,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="restarting from a recovery" />
     <MESSAGE value="reworking the demo to get cxc schema to connect to the application" />
-    <option name="LAST_COMMIT_MESSAGE" value="reworking the demo to get cxc schema to connect to the application" />
+    <MESSAGE value="Connected Schema cxc Schema! Now need to program methods." />
+    <option name="LAST_COMMIT_MESSAGE" value="Connected Schema cxc Schema! Now need to program methods." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
