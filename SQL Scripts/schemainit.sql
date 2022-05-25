@@ -1,3 +1,7 @@
+DROP SCHEMA IF EXISTS 'cxc';
+CREATE SCHEMA 'cxc';
+USE 'cxc';
+
 DROP TABLE IF EXISTS ers_users CASCADE;
 DROP TABLE IF EXISTS ers_reimbursements CASCADE;
 
@@ -16,8 +20,8 @@ CREATE TABLE ers_users (
 );
 CREATE TABLE ers_reimbursements (
     id SERIAL PRIMARY KEY,
-    author INT NOT NULL,
-    resolver INT,
+    author INT NOT NULL, --employee wrote the reimbursement submission
+    resolver INT, --manager decides
     description TEXT NOT NULL,
     type VARCHAR (250) NOT NULL,
     status VARCHAR (250) NOT NULL,

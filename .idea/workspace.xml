@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f37bad1-c696-4ac9-b171-8aa4e727f163" name="Changes" comment="update on launcher. Need to work on connecting">
+    <list default="true" id="5f37bad1-c696-4ac9-b171-8aa4e727f163" name="Changes" comment="SQL generic script must be specified to Postgres dialect. Then tables were created into public table.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/models/MockLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/c4007b6e-1308-475c-9c05-3441e6720f16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c4007b6e-1308-475c-9c05-3441e6720f16.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/c4007b6e-1308-475c-9c05-3441e6720f16/storage_v2/_src_/database/postgres.edMnLQ/schema/cxc.joIBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c4007b6e-1308-475c-9c05-3441e6720f16/storage_v2/_src_/database/postgres.edMnLQ/schema/cxc.joIBAA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/c4007b6e-1308-475c-9c05-3441e6720f16/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c4007b6e-1308-475c-9c05-3441e6720f16/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL Scripts/create-db-cxc.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SQL Scripts/create-db-cxc.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SQL Scripts/schemainit.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SQL Scripts/schemainit.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/controllers/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/controllers/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/controllers/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/controllers/EmployeeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,8 +52,15 @@
       <MavenGeneralSettings>
         <option name="alwaysUpdateSnapshots" value="true" />
         <option name="useMavenConfig" value="true" />
+        <option name="usePluginRegistry" value="true" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="29b5bRczBSfkkGTtqm4KOenIdri" />
   <component name="ProjectLevelVcsManager">
@@ -61,27 +70,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "database.query.execution"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Runtime.Targets.Configurable&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ],
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
-      "PostgreSQL"
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;PostgreSQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.revature.Launcher" />
@@ -115,7 +123,9 @@
       <workItem from="1653369293091" duration="3000" />
       <workItem from="1653405704232" duration="13392000" />
       <workItem from="1653441563647" duration="3596000" />
-      <workItem from="1653487270779" duration="8878000" />
+      <workItem from="1653487270779" duration="13013000" />
+      <workItem from="1653513239663" duration="431000" />
+      <workItem from="1653514354311" duration="1070000" />
     </task>
     <task id="LOCAL-00001" summary="restarting from a recovery">
       <created>1653360516950</created>
@@ -152,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653488523431</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="SQL generic script must be specified to Postgres dialect. Then tables were created into public table.">
+      <created>1653504778631</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653504778631</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +192,8 @@
     <MESSAGE value="reworking the demo to get cxc schema to connect to the application" />
     <MESSAGE value="Connected Schema cxc Schema! Now need to program methods." />
     <MESSAGE value="update on launcher. Need to work on connecting" />
-    <option name="LAST_COMMIT_MESSAGE" value="update on launcher. Need to work on connecting" />
+    <MESSAGE value="SQL generic script must be specified to Postgres dialect. Then tables were created into public table." />
+    <option name="LAST_COMMIT_MESSAGE" value="SQL generic script must be specified to Postgres dialect. Then tables were created into public table." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
