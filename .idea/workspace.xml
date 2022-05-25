@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f37bad1-c696-4ac9-b171-8aa4e727f163" name="Changes" comment="Connected Schema cxc Schema! Now need to program methods.">
+    <list default="true" id="5f37bad1-c696-4ac9-b171-8aa4e727f163" name="Changes" comment="update on launcher. Need to work on connecting">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c4007b6e-1308-475c-9c05-3441e6720f16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c4007b6e-1308-475c-9c05-3441e6720f16.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c4007b6e-1308-475c-9c05-3441e6720f16/storage_v2/_src_/database/postgres.edMnLQ/schema/cxc.joIBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c4007b6e-1308-475c-9c05-3441e6720f16/storage_v2/_src_/database/postgres.edMnLQ/schema/cxc.joIBAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c4007b6e-1308-475c-9c05-3441e6720f16/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c4007b6e-1308-475c-9c05-3441e6720f16/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL Scripts/create-db-cxc.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SQL Scripts/create-db-cxc.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL Scripts/schemainit.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SQL Scripts/schemainit.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/controllers/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/controllers/AuthenticationController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +30,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/SQL Scripts/schemainit.sql" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/revature/Launcher.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/revature/models/Employee.java" root0="FORCE_HIGHLIGHTING" />
@@ -56,24 +61,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Web Contexts&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "database.query.execution"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "PostgreSQL"
     ]
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.revature.Launcher" />
+      <module name="icp1demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.revature.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Launcher" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -87,7 +115,7 @@
       <workItem from="1653369293091" duration="3000" />
       <workItem from="1653405704232" duration="13392000" />
       <workItem from="1653441563647" duration="3596000" />
-      <workItem from="1653487270779" duration="1172000" />
+      <workItem from="1653487270779" duration="8878000" />
     </task>
     <task id="LOCAL-00001" summary="restarting from a recovery">
       <created>1653360516950</created>
@@ -117,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653423656474</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update on launcher. Need to work on connecting">
+      <created>1653488523431</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653488523431</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +174,8 @@
     <MESSAGE value="restarting from a recovery" />
     <MESSAGE value="reworking the demo to get cxc schema to connect to the application" />
     <MESSAGE value="Connected Schema cxc Schema! Now need to program methods." />
-    <option name="LAST_COMMIT_MESSAGE" value="Connected Schema cxc Schema! Now need to program methods." />
+    <MESSAGE value="update on launcher. Need to work on connecting" />
+    <option name="LAST_COMMIT_MESSAGE" value="update on launcher. Need to work on connecting" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

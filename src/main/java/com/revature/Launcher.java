@@ -26,6 +26,7 @@ public class Launcher {
                 }
         ).start(3000);
         //Now we need our endpoints
+        //this is where we talk to the HTMLs
         app.get("/employee", ecgetEmployeesHandler);
         app.post("/employee", ec.insertEmployeesHandler);
         //In the future, we will also add a log in function
