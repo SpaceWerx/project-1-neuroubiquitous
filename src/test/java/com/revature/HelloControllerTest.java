@@ -15,7 +15,7 @@ import static com.jayway.restassured.RestAssured.when;
 import static org.hamcrest.CoreMatchers.is;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = App.class)
+@SpringApplicationConfiguration(classes = Launcher.class)
 @WebAppConfiguration
 @IntegrationTest({"server.port:0",
         "spring.datasource.url:jdbc:h2:mem:TestJavalin2;DB_CLOSE_ON_EXIT=FALSE"})

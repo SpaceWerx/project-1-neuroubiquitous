@@ -17,7 +17,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <start-class>com.revature.App</start-class>
+        <start-class>com.revature.Launcher</start-class>
         <java.version>1.8</java.version>
         <lombok.version>1.14.8</lombok.version>
         <log4jdbc.log4j2.version>1.16</log4jdbc.log4j2.version>
@@ -77,6 +77,39 @@
                         <artifactId>springloaded</artifactId>
                         <version>${spring-loaded.version}</version>
                     </dependency>
+                    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+                    <dependency>
+                        <groupId>org.junit.jupiter</groupId>
+                        <artifactId>junit-jupiter-api</artifactId>
+                        <version>5.8.2</version>
+                        <scope>test</scope>
+                    </dependency>
+                    <!-- This dependency will let us establish JDBC (Java DataBase Connectivity) -->
+                    <dependency>
+                        <groupId>org.postgresql</groupId>
+                        <artifactId>postgresql</artifactId>
+                        <version>42.2.14</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>io.javalin</groupId>
+                        <artifactId>javalin</artifactId>
+                        <version>4.6.0</version>
+                    </dependency>
+                    <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+                    <dependency>
+                        <groupId>com.google.code.gson</groupId>
+                        <artifactId>gson</artifactId>
+                        <version>2.9.0</version>
+                    </dependency>
+                    <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+                    <dependency>
+                        <groupId>org.slf4j</groupId>
+                        <artifactId>slf4j-simple</artifactId>
+                        <version>1.7.36</version>
+                    </dependency>
+
+
+
                 </dependencies>
             </plugin>
         </plugins>
