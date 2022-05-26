@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f37bad1-c696-4ac9-b171-8aa4e727f163" name="Changes" comment="Need to add HTMLs to initiate Javalin.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/repositories/ReimbursementDAO.java" afterDir="false" />
+    <list default="true" id="5f37bad1-c696-4ac9-b171-8aa4e727f163" name="Changes" comment="Code ReimbursementDAO.java&#10;More to debug. Need to add frontend HTML">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/models/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/models/MockLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/models/MockLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/models/RbRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/models/RbRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/models/RbStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/models/RbStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/models/RbType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/models/RbType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/models/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/repositories/ReimbursementDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/repositories/ReimbursementDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/services/AuthenticationServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/services/AuthenticationServices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +61,7 @@
     <option name="delegateBuildToMaven" value="true" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="29b5bRczBSfkkGTtqm4KOenIdri" />
   <component name="ProjectLevelVcsManager">
@@ -63,26 +71,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Runtime.Targets.Configurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Mirai/Desktop/Revature/GitSpaceWerx/project-1-neuroubiquitous/ICdemoP1",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "Runtime.Targets.Configurable"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ],
-    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
-      &quot;PostgreSQL&quot;
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "PostgreSQL"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.revature.Launcher" />
@@ -119,7 +130,9 @@
       <workItem from="1653487270779" duration="13013000" />
       <workItem from="1653513239663" duration="431000" />
       <workItem from="1653514354311" duration="2318000" />
-      <workItem from="1653529588687" duration="7250000" />
+      <workItem from="1653529588687" duration="7712000" />
+      <workItem from="1653538449892" duration="43000" />
+      <workItem from="1653578651458" duration="10945000" />
     </task>
     <task id="LOCAL-00001" summary="restarting from a recovery">
       <created>1653360516950</created>
@@ -177,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653516282522</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Code ReimbursementDAO.java&#10;More to debug. Need to add frontend HTML">
+      <created>1653537944212</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653537944212</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +222,8 @@
     <MESSAGE value="update on launcher. Need to work on connecting" />
     <MESSAGE value="SQL generic script must be specified to Postgres dialect. Then tables were created into public table." />
     <MESSAGE value="Need to add HTMLs to initiate Javalin." />
-    <option name="LAST_COMMIT_MESSAGE" value="Need to add HTMLs to initiate Javalin." />
+    <MESSAGE value="Code ReimbursementDAO.java&#10;More to debug. Need to add frontend HTML" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code ReimbursementDAO.java&#10;More to debug. Need to add frontend HTML" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -51,7 +51,7 @@ public class ReimbursementDAO {
                     PreparedStatement preparedStatement = connection.prepareStatement(sql);
 
                     //Filling the missing query value (?) with the method parameter (userId)
-                    preparedStatement.setInt(parameterIndex:1, userId);
+                    preparedStatement.setInt(parameterIndex:1, userId)
                     //Building a sql result set from the execution of the query statement
                     ResultSet resultSet = preparedStatement.executeQuery();
                     //Initializing a new Reimbursement array list to house and return with the data from the database
@@ -98,7 +98,7 @@ public class ReimbursementDAO {
                     PreparedStatement preparedStatement = connection.prepareStatement(sql); //prepareStatement() as opposed to createStatement()
 
                     //insert the methods argument (int id) as the first (and only) variable in our SQL query
-                    preparedStatement.set, id); //1 here is referring to the first parameter(?_ found in our SQL String
+                    preparedStatement.set, id)//1 here is referring to the first parameter(?_ found in our SQL String
 
                     ResultSet resultSet = preparedStatement.executeQuery();
 

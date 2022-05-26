@@ -1,5 +1,7 @@
 package com.revature.models;
 
+//This role is for adding employee
+
 public class Role {
     private int role_id;
     private String role_title;
@@ -21,7 +23,7 @@ public class Role {
     }
     @Override
         public String toString(){
-            return "Role [role_id= + role_id + ", role_title=" + role_title + ", role_salary=" + role_salary + "]";
+            return "Role [role_id= + role_id + " role_title=" + role_title + ", role_salary=" + role_salary + "]";
     }
     public int getRole_id(){
         return role_id;
@@ -62,11 +64,8 @@ public class Role {
         if(role_id != other.role_id)
             return false;
         if(role_title == null){
-            if(other.role_title != null)
-                return false;
-        } else if (!role_title.equals(other.role_title))
-                return false;
-        return true;
+            return other.role_title == null;
+        } else return role_title.equals(other.role_title);
     }
 
 }

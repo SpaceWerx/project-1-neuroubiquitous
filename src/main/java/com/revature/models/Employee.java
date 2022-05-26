@@ -69,14 +69,14 @@ public class Employee {
         int result = 1;
         result = prime * result + employee_id;
         result = prime * result + ((f_name == null) ? 0 : f_name.hashCode());
-        result = prime * result + ((l_name == null ? 0 : l_name.hashcode());
+        result = prime * result + ((l_name == null) ? 0 : l_name.hashCode());
         result = prime * result + role_id;
         return result;
     }
     @Override
     public boolean equals(Object obj){
         if (this == obj)
-                retrurn true;
+                return true;
         if (obj == null)
                 return false;
         if(getClass() != obj.getClass())
@@ -94,9 +94,7 @@ public class Employee {
                         return false;
         } else if (!l_name.equals(other.l_name))
                     return false;
-        if (role_id != other.role_id)
-                return false;
-        return true;
+        return role_id == other.role_id;
 
     }
 

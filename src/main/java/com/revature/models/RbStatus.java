@@ -1,7 +1,7 @@
 package com.revature.models;
 
 public enum RbStatus {
-    PENDING, APPROVED, DENIED;
+    PENDING, APPROVED, DENIED
 
 }
 
