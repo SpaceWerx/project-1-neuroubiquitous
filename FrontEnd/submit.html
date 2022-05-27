@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit</title>
+</head>
+<body>
+    <!--Sectional div for content styling-->
+    <div id="id">
+    
+        <!--H2 Title for the sectional content-->
+        <h2 id="display-title">Reimbursement Submission Form</h2>
+        <!-- Wrapper div for styling-->
+
+        <!--Bootstrap form with inputs for new submissions-->
+        <form id="submit-form">
+
+        <!--Wrapper div for input grouping-->
+        <div class="input-group mb-3">
+            <!--label for the dropdown selector-->
+            <label class="input-group-text" for="typeInput">Type</label>
+            <!--Bootstrap select component for type dropdown-->
+            <select class="form-select" id="typeInput">
+                <!--Setting the options for the dropdown with indicator values-->
+                <option selected>Choose</option>
+                <option value="Food">Food</option>
+                <option value="Lodging">Lodging</option>
+                <option value="Travel">Travel</option>
+                <option value="Conference">Conference</option>
+                <option value="Education">Education</option>
+                <option value="Tools">Tools</option>
+                <option value="Others">Others</option>
+            </select>
+        </div>
+        <!--label for the description text box-->
+        <label for="description" class="form-lable">description</label>
+        <div class="input-group">
+            <!--Bootstrap textarea input component for large text-->
+            <textarea class="form-control" id="description" placeholder="Explain the reason for your request..." aria-label="With textarea"></textarea>
+        </div>
+
+        <!--label for the amount text input-->
+        <label for="amount" class="form-lable">Amount</label>
+        <!--Div to group the span and input-->
+        <div class="input-groupe mb-3">
+            <!-- The span includes the $ inline with the input-->
+            <span class="input-group-text">$</span>
+            <!--Number input for the amount with a placeholder example-->
+            <intput typoe="number" class="form-control" id="amount" placeholder="e.g. 100.00" aria-label="Amount (to the nearest dollar)"></intput>
+        </div>
+        
+        <!--Bootstrap button toolbar to group buttons on the same line-->
+        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <!--wrapper div to separate the buttons-->
+            <div class="btn-group me-2" role="group" aria-lable-"First group">
+                <!--bootstrap back button with Id and reference-->
+                <button id="back-button" class="btn btn-outline-danger">
+                    <!--Anchor to return to the other document-->
+                    <a id="back-anchor" href="./employee.html">Back</a>
+                </button>
+            </div>
+
+            <!--Wrapper div to separate the buttons-->
+            <div class="btn-group me-2" role="group" aria-label="Second group">
+                <!--Bootstrap submit button with Id-->
+                <button type="submit" id="submit-button" class="btn btn-outline-primary">Submit</button>
+            </div>
+            </div>
+            <!--Message div to display anything to the user-->
+            <!--This element is hidden until we need it-->
+                <div id="message" hidden>Something went wrong</div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<!--we must pull in the 'server-requests.js' file so the sendAjaxRequest() method is found and called in the 'manager.js' file-->
+<script src=""../server-requsts.js"></script>
+<!--Calling in the respective javascript file for care functionality-->
+<script src="submit.js"></script>
+
+</html>
