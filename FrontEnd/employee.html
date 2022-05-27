@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee</title>
+</head>
+<body>
+<style>
+    #bg {
+        background-image: url('main-background.jpg');
+        background-repeat: no-repeat
+        background-position:center;
+        width:1920 px;
+        height:1080 px;
+    }
+    #display-title {
+        text-align: center;
+    }
+    #display-buttons {
+        align-self: center;
+    }
+</style>
+
+<!--wrapper div for styling-->
+
+
+    <!--sectional div for content styling-->
+    <div id="display">
+        <!--H2 title for the sectional content-->
+        <h2 id="display-title">Employee Portal</h2>
+
+        <!--Wrapper div for styling-->
+        <div id="display-buttons">
+            <!--Bootstrap button to submit new reimbursement-->
+            <button class="btn btn-outline-dark">
+                <!--Anchor to reference other pages-->
+                <a id="submit-anchor" href="submit.html">
+                    Submit Reimbursement
+                </a>
+            </button>
+        </div>
+        <!--Bootstrap table with mock data for styling-->
+        <table id="display-table" class="table table-striped" hidden>
+            <!--thread establishes column names-->
+            <thread>
+                <!-- Tr is a single record-->
+                <tr>
+                    <!--Th is the table header with column scope-->
+                    <th scope="col">ID</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Amount</th>
+                    <th scope="col">Status</th>
+                </tr>
+            </thread>
+            <!--Tbody contains the rows of data-->
+            <tbody id="display-table-body">
+
+            </tbody>
+        </table>
+        <div id="message" hidden>Something went wrong</div>
+    </div>
+</div>
+<div id="main">
+    <!--background image wrapper div for styling-->
+    <div id="bg">
+    <!--Background image reference with alt-text-->
+    <img src="main-background.jpg" alt="tech background" >
+    </div>
+</body>
+<script src="submit.js"></script>
+<script src="employee.js"></script>
+
+</html>
